@@ -261,7 +261,7 @@
         font-size: x-small;
     }
     .footer{
-        background-image: linear-gradient(to right , hsla(206, 39%, 39%, 0.609),#8bbac940), url(Footer.jpg);
+        background-image: url(Footer.jpg), linear-gradient(to right , hsla(206, 39%, 39%, 0.609),#8bbac940);
         background-position: top;
         background-repeat: no-repeat;
         display: flex;
@@ -305,4 +305,3 @@
     border-left: none;
 }
 }
-
