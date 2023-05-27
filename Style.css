@@ -104,6 +104,7 @@
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    border-radius: 8px;
 }
 
 #Menudown {
@@ -124,6 +125,60 @@
     transform: translate(0,-50%);
 }
 
+.footer {
+    background-image: linear-gradient(to right , hsla(206, 39%, 39%, 0.609),#8bbac940), url(Footer.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 24vh;
+    width: 100%;
+    position: relative;
+    margin-top: 22vh;
+    border-radius: 8px;
+}
+
+.Social {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    /* margin-right: 0vh; */
+    padding-right: 0vh;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+.Correos {
+    padding-top: 13%;
+    border-left: double;
+    padding-left: 3vh;
+
+}
+.Correos:first-child {
+    padding-top: 0%;
+}
+.Telefonos {
+    position: relative;
+    top: 50%;
+    margin-right: 11vh;
+}
+
+.Direccion {
+    margin-top: 1vh;
+
+}
+.Media {
+    padding-right: 1vh;
+    font-size: 50px;
+    margin-right: 6vh;
+    /* border-right: double; */
+    position: relative;
+    left: -103%;
+    color: #000000;
+}
+
 @media (max-width: 768px) {
     .Logo {
       max-width: 40%;
@@ -134,12 +189,7 @@
         left: 14%;
         top: -11vh; 
     }
-    .Nav-Button {
-        position: absolute;
-        top: 51vw;
-        left: -4vh;
-        
-    }
+
     .Dropdown {
     display: block;
     position: relative;
@@ -199,7 +249,7 @@
 
     }
     .Dropdown {
-        display: block;
+        display: inline;
         position: relative;
         left: 26vh;
         top: -5vh;
@@ -210,5 +260,49 @@
         width: 90%;
         font-size: x-small;
     }
+    .footer{
+        background-image: linear-gradient(to right , hsla(206, 39%, 39%, 0.609),#8bbac940), url(Footer.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        display: flex;
+        height: 80vh;
+        width: 100%;
+        position: relative;
+        margin-top: 22vh;
+        border-radius: 8px;
+    }
+    .Social {
+        display: inline-block;
+        width: 79%;
+        align-items: center;
+        font-size: 10px;
+        /* margin-right: 0vh; */
+        padding-bottom: 3vh;
+        background-size: cover;
+        position: absolute;
+        top: 74%;
+        left: 54%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .Media {
+        padding-right: 9vh;
+        font-size: 46px;
+        margin-right: -4vh;
+        border-right: none;
+        position: relative;
+        left: 0vh;
+        color: rgb(0, 0, 0);
+
   }
-  
+  .Direccion {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    width: 30vh;
+}
+.Correos-Box{
+    margin-bottom: 5vh;
+    border-left: none;
+}
+}
+
