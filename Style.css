@@ -189,7 +189,8 @@
       max-width: 53%;
     }
     .Nav-Box {
-        top: -290px;
+        top: -15vh;
+        left: -4vh;
     }
     .Nav-Button {
      display: none;
