@@ -89,8 +89,10 @@
     top: 80%;
     left: 70%;
     border: none;
-    color: antiquewhite;
+    color: rgb(255, 0, 0);
 }
+
+
 .Doctores {
     height: 95vh;
     position: relative;
@@ -103,7 +105,7 @@
 }
 
 #Menudown {
-    background-color: aqua;
+    background-color: #3d698a8e;
 }
 
 .Descripcion {
@@ -116,6 +118,7 @@
     position: absolute;
     top: 50vh;
     width: 50%;
+    overflow-wrap: break-word;
     transform: translate(0,-50%);
 }
 
@@ -135,6 +138,17 @@
         left: -4vh;
         
     }
+    .Dropdown {
+        display: block;
+        position: relative;
+        top: vh;
+        
+
+    }
+    .Nav-Button {
+        display: none;
+   
+       }
 
 
   }
@@ -153,12 +167,17 @@
   @media (max-width: 950px){
     .Nav-Button {
         position: absolute;
-        top: 69%;
-        left: 59%;
+        top: 4vh;
+        left: 47vh;
         
     }
     .Nav-btn {
         margin-right: 0px;
+    }
+    .Descripcion {
+        padding: 1vh;
+        width: 90%;
+        font-size: smaller;
     }
   }
 
@@ -178,5 +197,15 @@
     }
     .Dropdown {
         display: block;
+        position: relative;
+        left: 25vh;
+        top: 48vh;
+        
+
+    }
+    .Descripcion {
+        padding: 1vh;
+        width: 90%;
+        font-size: smaller;
     }
   }
