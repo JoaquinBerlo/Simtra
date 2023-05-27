@@ -141,7 +141,7 @@
     .Dropdown {
         display: block;
         position: relative;
-        top: vh;
+        top: 6vh;
         
 
     }
@@ -186,7 +186,7 @@
   
   @media (max-width: 480px) {
     .Logo {
-      max-width: 40%;
+      max-width: 53%;
     }
     .Nav-Box {
         top: -290px;
@@ -197,8 +197,11 @@
     }
     .Dropdown {
         display: block;
+    
         position: relative;
-        left: 25vh;
+    
+        left: 32vh;
+    
         top: 48vh;
         
 
